@@ -6,6 +6,8 @@ import { Home } from "./components/Home";
 import { Contact } from "./components/Contact";
 import { More } from "./components/More";
 import { Bform } from "./components/Bform";
+import { Navbar2 } from "./components/Navbar2";
+
 
 function App() {
   return (
@@ -13,6 +15,9 @@ function App() {
       <BrowserRouter>
         <div>
           <Navbar />
+          <div>
+          <Navbar2 />
+          </div>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />

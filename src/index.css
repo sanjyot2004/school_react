@@ -24,6 +24,10 @@ code {
   height: 420px;
   margin-top: 20%;
   margin-bottom: 20%;
+  
+}
+#card{
+  border: solid rgb(219, 202, 202) 2px;
 }
 .about-block{
   margin-bottom: 10%;
@@ -157,12 +161,44 @@ background-color: rgb(0, 0, 0);
 
 .contact-block{
   margin: 5%;
+  margin-top: 200px;
 }
 .Navbutton{
-  margin-left:500px ;
+    margin-left:800px; 
+    margin-right: 100px;
+    color: rgb(189, 178, 178);
+
   
 }
+
 .Navbar-block{
-  background-color:rgb(37, 187, 155);
+  background-color:#8d0039;
 
 }
+.Navbar-block2{
+  background-color: #b30048;
+  display:block;
+  position:fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+
+  .Navbar-block2 {
+    background-color: #b30048;
+    width: 100%;
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+  
+  }
+  
+  .Navbar-block2.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow when the navbar is sticky */
+  }
+  
+  /* Add any other styling you want for the Navbar2 */
+  
