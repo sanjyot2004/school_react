@@ -6,8 +6,9 @@ import { Home } from "./components/Home";
 import { Contact } from "./components/Contact";
 import { More } from "./components/More";
 import { Bform } from "./components/Bform";
-import { Navbar2 } from "./components/Navbar2";
+import Gallaryblk from "./components/Gallaryblk"; // Corrected import
 
+import { Navbar2 } from "./components/Navbar2";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <div>
           <Navbar />
           <div>
-          <Navbar2 />
+            <Navbar2 />
           </div>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -24,7 +25,7 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
             <Route path="/More" element={<More />} />
             <Route path="/Bform" element={<Bform />} />
-
+            <Route path="/Gallaryblk" element={<Gallaryblk />} /> {/* Corrected route */}
           </Routes>
         </div>
       </BrowserRouter>
