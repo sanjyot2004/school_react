@@ -6,7 +6,7 @@ export default function Gallary() {
         <div className='container'>
         <div className="gallary-block">
         <div >
-                 <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3 " style={{textAlign: "center"}}>Gallary</h1>
+                 <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3 " style={{textAlign: "center",fontFamily:"Lucida Console"}}>Gallary</h1>
             <hr />
             <div className="row text-center">
                 <div className="col"> 

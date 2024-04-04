@@ -1,0 +1,1 @@
+ <header className={`d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 ${isSticky ? 'slide-down' : 'slide-up'}`}>

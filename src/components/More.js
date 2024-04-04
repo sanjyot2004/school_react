@@ -1,91 +1,97 @@
-import React from "react";
-import About from './Nursery-School-Admission-in-Gurgaon.jpg';
+import React from 'react';
+import vision from "./Vision.png";
+ import mission from "./Mission.png";
+ import parentface from "./Founder.png";
 
-import Owner from'./Manoj S. Jagtap.jpg';
-import first from './cda599fc-a44a-4cac-b0f8-0a2d15a87e4ayog.jpg';
-import { motion } from "framer-motion"; 
-import vision from './sclogo.png';
-import mission from './oppo.jpg';
+
 export function More() {
     return (
         <>
-        <div>
-            <div className="about-container">
-                <img src={About} alt="About Gurukul" height="500px" width="100%" />
-                <div className="about-text" >
-                    <h1 style={{paddingLeft:"80px",textShadow: "2px 2px 5px black(2, 2, 2, 2)",textDecoration: "underline" }}>About Gurukul</h1>
-                </div>
-            </div>
-            <div className="About">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <h2 style={{paddingLeft:"20px",paddingTop:"60px",fontFamily:"bold-serif"}}>WELCOME</h2><br />
-                            <h4 style={{fontFamily:"serif"}}>The Gurukul Public School was founded in 2011 by Mr.Prakash Mhase with the motto "Education for Enrichment, Enhancement and Excellence".</h4>
-                        </div>
-                    
-                        <div className="col-lg-6"><br/><br/>
-                        <motion.img 
-                           src={Owner} 
-                            alt="..." 
-                            class="img-fluid img-thumbnail"
-                            style={{ width: "90%", height: "70%" }}
-                            whileHover={{ scale: 1.1 }} 
-                            whileTap={{ scale: 0.9 }}/>
-                        </div><br/><br/>
-                        <div className="col-lg-6">
-                        <motion.img 
-                           src={first} 
-                            alt="..." 
-                            class="img-fluid img-thumbnail"
-                            style={{ width: "90%", height: "70%" }}
-                            whileHover={{ scale: 1.1 }} 
-                            whileTap={{ scale: 0.9 }}/>
-
-                             </div><br/><br/>
-                             <div className="col-lg-6">
-                                <h4 style={{paddingTop:"10%",fontFamily:"serif"}}>"At Gurukul Public School, our core mission is to facilitate learning, where students acquire the invaluable skill of how to learn effectively."</h4>
-                                <hr style={{borderTop: "10px solid #ccc", margin: "20px 10", color:"black"}} />
-                                <h5><b>Mr.Prakash Mhase</b></h5>
-                                <h6>Founder,Gurukul Public School</h6>
-
-                               </div>
-
-                    </div>
-                </div>
-            </div>
-            
+    <div className="container" id='More-block'>
+      <div className="row">
+      <div className="d-grid gap-8 d-md-flex justify-content-md-start">
+           
+      <div className="col-lg-7">
+        <h1 style={{fontFamily:"serif"}}>About <span style={{color:"brown"}}>Gurukul</span></h1><br/>
+         <p className="lead" style={{textAlign:"justify",fontFamily:"Georgia, serif"}}> "अथर्व बहुउद्देशीय ग्रामविकास संस्था" The Gurukul Public School, Ladgaon. Gurukul seeks to impart education in the fullest sense of the term, while assisting in developing the individuality of children. While following a curriculum aimed at the highest standards of academic excellence, the school takes particular care to ensure a congenial environment for the all round development of the child. </p>
+         <p className="lead" style={{textAlign:"justify",fontFamily:"Georgia, serif"}}>Gurukul Public School is committed to providing quality education that nurtures the holistic development of every student.</p>
         </div>
-        <div style={{backgroundColor:"lightgrey"}}><br/>
-        <h2 style={{fontFamily: "fantasy",paddingLeft:"33%"}}><b>School Vision & Mission</b></h2>
-        
-      <div className="container text-center"style={{paddingBottom:"10px"}}>
-        <div className="row justify-content-center">
-          <div className="col-lg-6 mb-4" style={{ paddingRight: '90px', paddingLeft: '90px' }}>
-            <div className="card" style={{ width: '20rem' }}>
-              <img src={vision} className="card-img-top" alt="Vision" />
-              <div className="card-body">
-                <h5 className="card-title">Vision</h5>
-                <p className="card-text">
-                  To be a leading educational institution that nurtures students to become confident, compassionate, and responsible global citizens.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6 mb-4" style={{ paddingRight: '90px', paddingLeft: '90px' }}>
-            <div className="card" style={{ width: '20rem' }}>
-              <img src={mission} className="card-img-top" alt="Mission" />
-              <div className="card-body">
-                <h5 className="card-title">Mission</h5>
-                <p className="card-text">
-                Our mission is to provide a challenging and supportive learning environment that fosters intellectual curiosity, critical thinking, and lifelong learning.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
+      
+      <div className="col-md-5 vision-mission-sec now wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" style={{ visibility: "visible", animationDuration: "1s", animationDelay: "0.6s",paddingLeft:"35px" ,paddingTop:"50px"}}>
+        <div class="container About-sec"  style={{ border: "1px solid #ccc", borderRadius: "8px", padding: "20px" }}>
+      <div className='col-lg-12 vision pd0'>
+    <h2>
+      <img src={vision} alt='...' style={{height:"100px",width:"130px"}}  />
+       <span style={{ borderBottom: "2px solid gray", paddingBottom: "3px" }}>&nbsp; Our vision</span> 
+    </h2>
+    <p style={{ textAlign: "justify" }}>To empower students with knowledge, skills, and values that prepare them to become lifelong learners and responsible global citizens.</p>
+    <hr/>
     </div>
-        </>
+    <div className='col-lg-12 vision pd0'>
+    <h2>
+      <img src={mission} alt='...' style={{height:"100px",width:"100px"}} />
+       <span style={{ borderBottom: "2px solid gray", paddingBottom: "3px" }}>&nbsp; Our Mission</span> 
+    </h2>
+    <p style={{ textAlign: "justify" }}>The school aims to provide a high standard of education that focuses on academic achievement and critical thinking skills.</p>
+    <hr/>
+    </div>
+
+    </div>   
+    </div>
+    </div>
+    </div>
+  </div>
+
+     
+ 
+
+  <div className='about-block'>
+    <div className='container'>
+      <div className="row flex-lg-row-reverse align-items-center g-5 py-6">
+      <div className="col-lg-6">
+        <div className='about'>
+          <h5>Shri. Praksh Mhase, Owner Of the School.</h5><br />
+          <h6>Dear Parents,</h6><br />
+          <p style={{textAlign:"justify"}}>I take this privilege to welcome you to Gurkul Public School, Ladgaon. What a gift, at ladgaon has been to make my dream come true.!! My vision is to transform children from all background into educated citizens, inspire them to be just and ethical citizens who will be wise and principled leaders to serve a meritocratic India. We do this by attracting and developing exceptional children and teachers.<br /><br />
+                   We also aim to be the most exciting place in India for educators to work together and a centre for excellence in professional development for teaching and pastoral care. We look outwards and see what we can learn from others in the field of education and training, and we invite others to share and participate in what we do.</p> <br />
+                   <h5>Shri. Praksh Mhase</h5><br />
+                   <h5>Gurukul Public School</h5>
+        </div>      
+      </div>
+      <div className="col-lg-6">
+      <h2 style={{paddingLeft:"5.5%",color:"brown",fontFamily:"serif",textDecoration:"underline"}}>Mangement Desk</h2><br/><br/>
+      <div class="card-container" style={{display: "flex", justifyContent: "flex-start", marginLeft: "80px",alignItems:"flex-start"}}>
+  
+  <div class="card" style={{width: "19rem",margin: "40px"}}>
+    
+  <img src={parentface} class="card-img-top" alt="..."style={{width:"280px",height:"300px", marginTop:"10px",boxShadow:"10px 10px 5px gray"}} /> <hr />
+  <div class="card-body">
+  <h5 class="card-title">
+  <span style={{color: "brown",fontFamily:"serif"}}> Name: </span> 
+  <span style={{fontFamily:"serif"}}>Shri. Prakash Mhase</span>
+   </h5>
+    <h5 class="card-text" >
+      <span style={{fontFamily:"serif",color:"brown"}}>Designation: </span>
+      <span style={{fontFamily:"serif"}}>Founder Of The School.</span>
+
+      </h5>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+      </>
     );
 }
 

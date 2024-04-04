@@ -12,6 +12,7 @@ import { Footer } from "./Footer";
 
 
 
+
 export const Home = () =>{
 
  
@@ -47,6 +48,9 @@ export const Home = () =>{
     <div>
       <Footer />
     </div>
+    
+    
+
     
    </>
   );
