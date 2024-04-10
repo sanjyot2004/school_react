@@ -15,7 +15,7 @@ export  const Bform = () => {
         <div className="">
           <div className="fblock-1">
             <h3>ADMISSION ENQUIRY!</h3>
-            <form onSubmit={handleSubmit}>
+            <form action="connect" onSubmit={handleSubmit}>
               <div style={{ paddingTop: '10px' }}>
                 <label><b><h4 style={{ fontFamily: "sans-serif" }}>Name of Student</h4></b></label><br />
                 <input name='student' placeholder=' Enter Student Name' type='text' className='form-field' style={{ width: '300px', borderRadius:'50px' }} /><br /><br />

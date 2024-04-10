@@ -15,6 +15,7 @@ import SportPage from "./components/SportPage";
 import AllFeatures from './components/AllFeatures';
 import More1 from './components/More1';
 import More2 from './components/More2';
+import More3 from './components/More3';
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
             <Route path="/SportPage" element={< SportPage/>} />
             <Route path="/AllFeatures" element={<AllFeatures />} /> 
             <Route path="/More1" element={<More1 />} />       
-            <Route path="/More2" element={<More2 />} />                 
+            <Route path="/More2" element={<More2 />} /> 
+            <Route path="/More3" element={<More3 />} />                
           </Routes>
         </div>
       </BrowserRouter>

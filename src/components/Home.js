@@ -6,6 +6,7 @@ import Gallary from "./Gallary";
 import Review from "./Review";
 import { Button } from "./Button";
 import { Footer } from "./Footer";
+import Contact2 from "./Contact2";
 
 
 
@@ -49,8 +50,9 @@ export const Home = () =>{
       <Footer />
     </div>
     
-    
-
+    <div>
+      <Contact2 />
+    </div>
     
    </>
   );
