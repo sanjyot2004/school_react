@@ -16,29 +16,36 @@ export function More3() {
       <div className="row flex-lg-row-reverse align-items-center g-5 py-6">
       <div className="col-lg-6">
         <div className='about'>
-          <h5>Shri. Praksh Mhase, Founder of the School.</h5><br />
+          <h5>Vandana Sanjay Adhav , Principal of the School.</h5><br />
           <h6>Dear Parents,</h6><br />
-          <p style={{textAlign:"justify"}}>I take this privilege to welcome you to Gurkul Public School, Ladgaon. What a gift, at ladgaon has been to make my dream come true.!! My vision is to transform children from all background into educated citizens, inspire them to be just and ethical citizens who will be wise and principled leaders to serve a meritocratic India. We do this by attracting and developing exceptional children and teachers.<br /><br />
-                   We also aim to be the most exciting place in India for educators to work together and a centre for excellence in professional development for teaching and pastoral care. We look outwards and see what we can learn from others in the field of education and training, and we invite others to share and participate in what we do.</p> <br />
-                   <h5>Shri. Praksh Mhase</h5><br />
+          <p style={{textAlign:"justify"}}>It is with great pleasure that I extend a warm welcome to you all to Gurukul Public School, Ladgaon. I am honored to carry forward the vision set forth by our esteemed Founder, Shri. Praksh Mhase.
+
+At Gurukul Public School, our mission is to nurture and empower students from diverse backgrounds, fostering in them not only academic excellence but also a strong sense of integrity and social responsibility. We are committed to shaping future leaders who are not only knowledgeable but also compassionate and ethical citizens.<br/><br/>
+
+Under my leadership, alongside our dedicated team of educators, we strive to create an environment that stimulates intellectual curiosity, fosters creativity, and promotes holistic development. Our aim is to make Gurukul Public School the epitome of educational excellence, where students are inspired to reach their full potential and become contributing members of a progressive society.
+
+Furthermore, we are dedicated to continuous improvement and collaboration within the education community.<br/><br/> We actively seek opportunities to learn from others in the field and are committed to sharing our best practices to contribute to the advancement of education as a whole.
+
+I look forward to partnering with you on this journey of academic and personal growth for our students. Together, let us build a brighter future for the leaders of tomorrow.</p> <br />
+                   <h5>Vandana Sanjay Adhav</h5><br />
                    <h5>Gurukul Public School</h5>
         </div>      
       </div>
       <div className="col-lg-6">
-      <h2 style={{paddingLeft:"5.5%",color:"brown",fontFamily:"serif",textDecoration:"underline"}}>Mangement Desk</h2><br/><br/>
-      <div class="card-container" style={{display: "flex", justifyContent: "flex-start", marginLeft: "80px",alignItems:"flex-start"}}>
+      <h2 style={{paddingLeft:"5.5%",color:"brown",fontFamily:"serif",textDecoration:"underline"}}>Principal Desk</h2><br/><br/>
+      <div className="card-container" style={{display: "flex", justifyContent: "flex-start", marginLeft: "80px",alignItems:"flex-start"}}>
   
-  <div class="card" style={{width: "19rem",margin: "40px"}}>
+  <div className="card" style={{width: "19rem",margin: "40px"}}>
     
-  <img src={principle} class="card-img-top" alt="..."style={{width:"280px",height:"300px", marginTop:"10px",boxShadow:"10px 10px 5px gray"}} /> <hr />
-  <div class="card-body">
-  <h5 class="card-title">
+  <img src={principle} className="card-img-top" alt="..."style={{width:"303px",height:"300px"}} /> <hr />
+  <div className="card-body">
+  <h5 className="card-title">
   <span style={{color: "brown",fontFamily:"serif"}}> Name: </span> 
-  <span style={{fontFamily:"serif"}}>Shri. Prakash Mhase</span>
+  <span style={{fontFamily:"serif"}}>Vandana Sanjay Adhav</span>
    </h5>
-    <h5 class="card-text" >
+    <h5 className="card-text" >
       <span style={{fontFamily:"serif",color:"brown"}}>Designation: </span>
-      <span style={{fontFamily:"serif"}}>Founder of The School.</span>
+      <span style={{fontFamily:"serif"}}>Principal of The School.</span>
 
       </h5>
   </div>

@@ -5,7 +5,7 @@ import { About } from "./components/About";
 import { Home } from "./components/Home";
 import { Contact } from "./components/Contact";
 import { More } from "./components/More";
-import { Bform } from "./components/Bform";
+import  {Bform}  from "./components/Bform";
 import Gallaryblk from "./components/Gallaryblk"; // Corrected import
 import FacultyPage from './components/FacultyPage';
 import Opportunities from './components/Opportunities';

@@ -19,7 +19,7 @@ export function More1() {
       
       
       <div className="col-md-5 vision-mission-sec now wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" style={{ visibility: "visible", animationDuration: "1s", animationDelay: "0.6s",paddingLeft:"35px" ,paddingTop:"50px"}}>
-        <div class="container About-sec"  style={{ border: "1px solid #ccc", borderRadius: "8px", padding: "20px" }}>
+        <div className="container About-sec"  style={{ border: "1px solid #ccc", borderRadius: "8px", padding: "20px" }}>
       <div className='col-lg-12 vision pd0'>
     <h2>
       <img src={vision} alt='...' style={{height:"100px",width:"130px"}}  />

@@ -1,6 +1,6 @@
+
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faPhone } from '@fortawesome/free-solid-svg-icons';
+import AntdForm from './AntdForm';
 
 export  const Bform = () => {
   const handleSubmit = (e) => {
@@ -15,33 +15,36 @@ export  const Bform = () => {
         <div className="">
           <div className="fblock-1">
             <h3>ADMISSION ENQUIRY!</h3>
-            <form action="connect" onSubmit={handleSubmit}>
+            {/* <form action="Connect.php" method='POST'  onSubmit={{handleSubmit}}>
               <div style={{ paddingTop: '10px' }}>
                 <label><b><h4 style={{ fontFamily: "sans-serif" }}>Name of Student</h4></b></label><br />
-                <input name='student' placeholder=' Enter Student Name' type='text' className='form-field' style={{ width: '300px', borderRadius:'50px' }} /><br /><br />
+                <input name='studentname' placeholder=' Enter Student Name' type='text' className='form-field' style={{ width: '300px', borderRadius:'50px' }} /><br /><br />
 
                 <label><b><h4 style={{ fontFamily: "sans-serif" }}>Name of Parent</h4></b></label><br />
-                <input type='text' name='parent' placeholder=' Enter Parent Name' style={{ width: '300px' ,borderRadius:'50px'}} /><br /><br />
+                <input type='text' name='parentname' placeholder=' Enter Parent Name' style={{ width: '300px' ,borderRadius:'50px'}} /><br /><br />
 
                 <label><b><h4 style={{ fontFamily: "sans-serif" }}>Select Class</h4></b></label><br />
                 <select style={{ width: '300px',borderRadius:'50px' }}>
-                  <option value="LKG/UKG Std">LKG/UKG Std</option>
-                  <option value="first Std">first Std</option>
-                  <option value="Second Std">Second Std</option>
-                  <option value="Third Std">Third Std</option>
-                  <option value="Fourth Std">Fourth Std</option>
-                  <option value="Fifth Std">Fifth Std</option>
-                  <option value="Six Std">Six Std</option>
+                  <option name='option' value="LKG/UKG Std">LKG/UKG Std</option>
+                  <option name='option' value="first Std">first Std</option>
+                  <option name='option' value="Second Std">Second Std</option>
+                  <option name='option' value="Third Std">Third Std</option>
+                  <option name='option' value="Fourth Std">Fourth Std</option>
+                  <option name='option' value="Fifth Std">Fifth Std</option>
+                  <option name='option' value="Six Std">Sixth Std</option>
+                  <option name='option' value="Six Std">Seventh Std</option>
+                  <option name='option' value="Six Std">Eighth Std</option>
                 </select><br /><br />
 
                 <label><b><h4 style={{ fontFamily: "sans-serif" }}>Contact Number</h4></b></label><br />
-                <input type='tel' name='contact' placeholder=' Enter Contact Number' style={{ width: '300px',borderRadius:'50px' }} /><br /><br />
+                <input type='tel' name='contactnumber' placeholder=' Enter Contact Number' style={{ width: '300px',borderRadius:'50px' }} /><br /><br />
 
                 <label><b><h4 style={{ fontFamily: "sans-serif" }}>Email Id</h4></b></label><br />
-                <input type='email' name='Email' placeholder=' Enter Email Id' style={{ width: '300px',borderRadius:'50px' }} /><br /><br />
+                <input type='email' name='email' placeholder=' Enter Email Id' style={{ width: '300px',borderRadius:'50px' }} /><br /><br />
               </div>
-              <button type="submit" className="btn btn-dark">Submit</button>
-            </form>
+              <input type="submit" className="btn btn-dark" value='Submit'  />
+            </form> */}
+            <AntdForm/>
           </div>
           
           </div>

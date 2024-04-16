@@ -26,17 +26,17 @@ export function More() {
       </div>
       <div className="col-lg-6">
       <h2 style={{paddingLeft:"5.5%",color:"brown",fontFamily:"serif",textDecoration:"underline"}}>Mangement Desk</h2><br/><br/>
-      <div class="card-container" style={{display: "flex", justifyContent: "flex-start", marginLeft: "80px",alignItems:"flex-start"}}>
+      <div className="card-container" style={{display: "flex", justifyContent: "flex-start", marginLeft: "80px",alignItems:"flex-start"}}>
   
-  <div class="card" style={{width: "19rem",margin: "40px"}}>
+  <div className="card" style={{width: "19rem",margin: "40px"}}>
     
-  <img src={parentface} class="card-img-top" alt="..."style={{width:"280px",height:"300px", marginTop:"10px",boxShadow:"10px 10px 5px gray"}} /> <hr />
-  <div class="card-body">
-  <h5 class="card-title">
+  <img src={parentface} className="card-img-top" alt="..."style={{width:"303px",height:"300px", marginTop:"5px"}} /> <hr />
+  <div className="card-body">
+  <h5 className="card-title">
   <span style={{color: "brown",fontFamily:"serif"}}> Name: </span> 
   <span style={{fontFamily:"serif"}}>Shri. Prakash Mhase</span>
    </h5>
-    <h5 class="card-text" >
+    <h5 className="card-text" >
       <span style={{fontFamily:"serif",color:"brown"}}>Designation: </span>
       <span style={{fontFamily:"serif"}}>Founder of The School.</span>
 
