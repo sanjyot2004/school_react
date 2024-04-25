@@ -1,5 +1,5 @@
 import React from 'react';
-import gallary from './gallary.jpg';
+
 import gal1 from './gal1.jpeg'
 import gal2 from './gal2.jpeg'
 import gal3 from './gal3.jpeg'
@@ -12,23 +12,23 @@ export default function Gallary() {
         <div className='container'>
         <div className="gallary-block">
         <div >
-                 <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3 " style={{textAlign: "center",fontFamily:"Lucida Console"}}>Gallary</h1>
+                 <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3 " style={{textAlign: "center",fontFamily:" 'Roboto', sans-serif",marginTop:"40px"}}>Gallary</h1>
             <hr />
             <div className="row text-center">
-                <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                <div className="col" > 
+                    <div id="card-gal" className="card" style={{ width: "400px", height: "217px"  }}>
                         <img src={gal1} className="card-img-top" alt="..." />
                     </div>
                 </div>
 
                 <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                    <div id="card-gal" className="card" style={{ width: "400px", height: "217px" }}>
                         <img src={gal2} className="card-img-top" alt="..." />
                     </div>
                 </div>
 
                 <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                    <div id="card-gal" className="card" style={{ width: "400px", height: "217px" }}>
                         <img src={gal3} className="card-img-top" alt="..." />
                     </div>
                 </div>
@@ -37,25 +37,27 @@ export default function Gallary() {
 
             <div className="row text-center">
                 <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                    <div id="card-gal" className="card" style={{ width: "400px", height: "217px" }}>
                         <img src={gal4} className="card-img-top" alt="..." />
                     </div>
                 </div>
 
                 <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                    <div id="card-gal" className="card" style={{ width: "400px", height: "217px" }}>
                         <img src={gal5} className="card-img-top" alt="..." />
                     </div>
                 </div>
 
                 <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                    <div id="card-gal" className="card" style={{ width: "400px", height: "217px" }}>
                         <img src={gal6} className="card-img-top" alt="..." />
                     </div>
                 </div>
             </div>
         </div>
         </div>
+
+        
         </div>
     );
 }

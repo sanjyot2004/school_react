@@ -14,7 +14,7 @@ export const FacultyPage = () => {
  <h1 className="page-heading text-center mb-4" >Faculty </h1> {/* Add class 'page-heading' */} <br/><br/><br/>
       <Row className="mb-5" >
         <Col md={6} className="d-flex align-items-center">
-          <FaUser className="icon mr-3" style={{color:"#8c0036" , marginRight:"10px"}} />
+          <FaUser  className="icon mr-3" style={{color:"#8c0036" , marginRight:"10px"}} />
           <div>
             <h3>Dedicated and Experienced Faculty</h3>
             <p>Our faculty members are dedicated professionals with years of experience.</p>
@@ -104,7 +104,17 @@ export const FacultyPage = () => {
        
         
       </Row>
+
+      <footer className="py-3 my-4">
+    <h6 className='' style={{textAlign:'center'}}>Gurukul Public School</h6>
+    <hr/>
+    <p className="text-center text-body-secondary"> © 2024 Gurukul Public School. All rights reserved</p>
+    <p className="text-center text-body-secondary"> Designed By : Web Spirits , IT Department of SCOE</p>
+  </footer>
+  
     </Container>
+
+    
   );
 };
 

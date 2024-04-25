@@ -17,9 +17,9 @@ export  const Contact = () => {
 
   <main>
     <h1 className="text-body-emphasis">STAY CONNECTED</h1><br/>
-    <p className="fs-5 col-md-8">Gurukul Public School Campus <br/>At. Ladgaon Tal. Vaijapur Dist. Chh.Sambhajinagar<br/>Pin Code:423701</p>
+    <p  className="fs-5 col-md-8" id='contacttext'>Gurukul Public School Campus <br/>At. Ladgaon Tal. Vaijapur Dist. Chh.Sambhajinagar<br/>Pin Code:423701</p>
 
-    
+
 
     <hr className="col-3 col-md-2 mb-5"/>
     <p className="fs-7 col-md-8">Visit our website to delve deeper into our school's offerings, curriculum, achievements, and community. Discover what sets us apart and how we can provide your child with an exceptional educational experience.</p>
@@ -28,19 +28,17 @@ export  const Contact = () => {
 
     <hr className="col-3 col-md-2 mb-5"/>
 
-    <div className="row g-5">
+    <div  className="row g-5">
       <div className="col-md-6">
         <h2 className="text-body-emphasis">Founder of the School</h2><br/>
         
         <h5 style={{ fontFamily: "sans-serif" }}>
-                <FontAwesomeIcon icon={faUser} /> Mr.Prakash Mhase
+                <FontAwesomeIcon  id='contact-svg' icon={faUser} /> Mr.Prakash V. Mhase
               </h5><br/>
               <p className="fs-5 col-md-8" style={{color:"blue"}}>
                 <FontAwesomeIcon icon={faPhone} /> 9970536417
               </p>
-              {/*<p className="fs-5 col-md-8" style={{color:"blue"}}>
-                <FontAwesomeIcon icon={faPhone} /> 9970536417
-  </p>*/}      
+                    
       </div>
 
       <div className="col-md-6">
@@ -57,6 +55,13 @@ export  const Contact = () => {
   </main>
  
 </div>
+    
+<footer className="py-3 my-4">
+      <h6 className='' style={{textAlign:'center'}}>Gurukul Public School</h6>
+      <hr/>
+      <p className="text-center text-body-secondary"> © 2024 Gurukul Public School. All rights reserved</p>
+      <p className="text-center text-body-secondary"> Designed By : Web Spirits , IT Department of SCOE , Kopargaon</p>
+    </footer>
       </div>
     </div>
   );

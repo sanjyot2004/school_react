@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import img1 from './scface.jpg'; 
-import img2 from './yogaimg.jpg'; 
-import img3 from './schoolimg.jpg'; 
+import img1 from './slide6.1.jpg'; 
+import img2 from './slide5.jpg'; 
+import img3 from './slide7.jpg'; 
+import img4 from './slide9.jpg'; 
 
 export default function MyCarousel() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -18,7 +19,7 @@ export default function MyCarousel() {
 
   return (
     <>
-      <Carousel style={{marginTop:"74px"}} pause={false} wrap={true}>
+      <Carousel  pause={false} wrap={true}>
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -39,6 +40,15 @@ export default function MyCarousel() {
           <img
             className="d-block w-100"
             src={img3}
+            alt="Third slide"
+            style={{ borderRadius: '0%' }}
+          />
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={img4}
             alt="Third slide"
             style={{ borderRadius: '0%' }}
           />

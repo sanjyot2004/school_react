@@ -4,7 +4,7 @@ import { Navbar } from "./components/Navbar";
 import { About } from "./components/About";
 import { Home } from "./components/Home";
 import { Contact } from "./components/Contact";
-import { More } from "./components/More";
+
 import  {Bform}  from "./components/Bform";
 import Gallaryblk from "./components/Gallaryblk"; // Corrected import
 import FacultyPage from './components/FacultyPage';
@@ -23,14 +23,14 @@ function App() {
       <BrowserRouter>
         <div>
           <Navbar />
-          <div>
+          <div style={{position:"sticky",top:"0px",zIndex:"20"}}>
             <Navbar2 />
           </div>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/Contact" element={<Contact />} />
-            <Route path="/More" element={<More />} />
+           
             <Route path="/Bform" element={<Bform />} />
             <Route path="/Gallaryblk" element={<Gallaryblk />} /> {/* Corrected route */}
             <Route path="/FacultyPage" element={< FacultyPage/>} />   

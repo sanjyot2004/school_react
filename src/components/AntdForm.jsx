@@ -64,6 +64,12 @@ const [form] =Form.useForm()
           <Option value="LKG/UKG Std">LKG/UKG Std</Option>
           <Option value="First Std">First Std</Option>
           <Option value="Second Std">Second Std</Option>
+          <Option value="Second Std">Third Std</Option>
+          <Option value="Second Std">Fourth Std</Option>
+          <Option value="Second Std">Fifth Std</Option>
+          <Option value="Second Std">Sisth Std</Option>
+          <Option value="Second Std">Seventh Std</Option>
+          <Option value="Second Std">Eighth Std</Option>
           {/* Add more options as needed */}
         </Select>
       </Form.Item>

@@ -167,12 +167,278 @@ background-color: rgb(0, 0, 0);
   margin: 5%;
   margin-top: 200px;
 }
-.Navbutton{
-    margin-left:800px; 
+
+.about-info{
+  height: 150px;
+  width: 300px;
+}
+
+/*////////////////////////////rezizing1/////////////////////////////*/
+
+@media (min-width: 421px) and (max-width: 1600px) {
+  .Navbutton {
+    margin-left: 800px; 
     margin-right: 100px;
     color: rgb(189, 178, 178);
+  }
+  .sclogo {
+    height: 100px; /* Adjust height for laptop screen */
+    width: 200px; /* Adjust width for laptop screen */
+    margin-right: 50px;
+  } 
+  .g-about{
+    font-size: 18px;
+  }
 
   
+}
+
+/*//////////////////////////////////////resizing2/////////////////////////////////////*/
+
+
+@media (max-width: 896px) {
+  .Navbutton {
+    font-size: 10px;
+    color: rgb(189, 178, 178);
+    margin: 0; /* Remove all margins at mobile screen */
+  }
+  .sclogo {
+    height: 50px;
+    width: 80px;
+    margin-right: 70px;
+  }
+  
+  .saraswati-img{
+    height: 200px;
+    width: 200px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+  }
+
+ .about-block{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .card > img {
+    height: 350px;
+    width: 350px;
+  }
+  
+
+.custom-row{
+  flex-direction: column-reverse;
+  margin: 1px;
+}
+.card-container{
+  margin:auto!important;
+ 
+}
+.card {
+  margin-left: 20px;
+}
+
+#card-gal{
+  height: 350px!important;
+  width: 350px !important;
+}
+.about-info{
+  text-align: center;
+  width: 350px;
+  height: 120px;
+}
+#ab-text{
+  text-align: center;
+}
+#in-btn{
+  text-align: center;
+}
+.g-about{
+  margin-left: 50px;
+}
+#more-vimi{
+  margin-right: 50px;
+  
+}
+
+
+
+}
+
+/*///////////////////////resizing for small phone////////////////*/
+@media (max-width: 400px) {
+
+  .feature-block{
+    display: flex!important;
+    justify-content: center!important;
+
+  }
+
+  #f-p-para{
+    font-size: 12px;
+  }
+
+  #fimg{
+    height: 200px!important;
+    width: 240px!important;
+   
+  }
+
+  #re-img{
+    height: 200px;
+    width: 200px;
+  }
+
+  #ab-text{
+    text-align: center;
+  }
+  #in-btn{
+    text-align: center;
+  }
+
+  .re-text{
+    font-size: 13px;
+  }
+
+  .saraswati-img{
+    height: 150px;
+    width: 150px;
+   
+  }
+
+  .about-block{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .about-info{
+    text-align: center;
+    width: 280px;
+    height: 120px;
+  }
+  .lead{
+    font-size: 13px!important;
+  }
+  .g-about{
+    font-size: 14px;
+    margin-left:30px;
+  }
+
+  .Navbutton {
+    font-size: 8px;
+    margin-left:15px ;
+  }
+  .g-tag{
+    font-size: 20px;
+    
+  }
+
+  .card {
+  margin-left: 30px;
+  height: 350px!important;
+  width: 250px !important;
+  
+}
+
+
+.card-img{
+  width: 250px!important;
+}
+
+.card-img-top{
+  width: 260px!important;
+  height: 260px!important;
+}
+
+.card-text{
+  font-size: 12px;
+}
+
+.founder-text{
+  font-size: 15px;
+  
+}
+
+#card-gal{
+  height: 200px!important;
+  width: 150px !important;
+}
+
+.Navbutton2{
+  height: 95px;
+}
+
+#nav-btn{
+  font-size: 12px;
+  display: flex;
+  
+}
+
+.sclogo {
+ height: 30px;
+ width: 50px;
+  margin-right:10px;
+}
+
+#more-vimi{
+ font-size: 12px;
+  
+}
+#mi-img{
+  margin-right:50px;
+  
+}
+
+#mi-text{
+  padding: 20px;
+  
+}
+
+#vi-img{
+  margin-right:70px;
+  margin-left: 20px;
+  
+}
+
+#vi-text{
+  padding: 20px;
+  
+}
+
+.text-body-emphasis{
+  font-size: 19px;
+}
+
+#contacttext{
+  font-size: 17px!important;
+}
+
+.contact-block{
+  margin-top:70px ;
+}
+
+#contact-svg{
+  margin-right: 10px!important;
+}
+#cardp{
+  height: 200px!important;
+  width: 250px!important;
+ display: flex;
+ justify-content: center;
+ max-width: 100%;
+}
+}
+/*////////////////////SE////////////////////////*/
+
+
+
+/*//////////////////////////////////////*/
+
+
+.card-container{
+  margin-left: 80px;
 }
 
 .Navbar-block{
@@ -182,10 +448,11 @@ background-color: rgb(0, 0, 0);
 .Navbar-block2{
   background-color: #b30048;
   display:block;
-  position:fixed;
+  position:sticky;
+  top: 0;
   width: 100%;
   z-index: 1000;
-  font-family: Lucida Console;
+  font-family: 'Roboto', sans-serif;
 }
 
 

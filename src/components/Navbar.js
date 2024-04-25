@@ -16,14 +16,14 @@ return(
       <div className="col-md-2">
       <a href="/" className="d-inline-flex link-body-emphasis text-decoration-none">
 
-        <img src={sclogo} height="100px" width="200px" style={{marginLeft:"30%"}}/>
+        <img className='sclogo' src={sclogo} height="100px" width="200px" style={{marginLeft:"30%"}}/>
 
       </a>
     </div>
     </div>
     
   <div className='Navbutton'>
-    <h1>Gurukul School</h1>
+    <h2 className='g-tag'>Gurukul Public School</h2>
     <p>At. Ladgaon Tal. Vaijapur Dist. Chh.Sambhajinagar</p>
     
 </div>

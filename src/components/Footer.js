@@ -7,7 +7,7 @@ export const Footer = () => {
     <h6 className='' style={{textAlign:'center'}}>Gurukul Public School</h6>
     <hr/>
     <p className="text-center text-body-secondary"> © 2024 Gurukul Public School. All rights reserved</p>
-    <p className="text-center text-body-secondary"> Designed By : Web Spirits , IT Department of SCOE</p>
+    <p className="text-center text-body-secondary"> Designed By : Web Spirits , IT Department of SCOE , Kopargaon</p>
   </footer>
   );
 }

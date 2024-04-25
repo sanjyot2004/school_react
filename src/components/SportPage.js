@@ -24,19 +24,19 @@ export const SportsPage = () => {
       
       <div className="row text-center">
                 <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                    <div id='cardp' className="card" style={{ width: "400px=", height: "217px" }}>
                         <img src={t1} className="card-img-top" alt="..." />
                     </div>
                 </div>
 
                 <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                    <div id='cardp' className="card" style={{ width: "400px=", height: "217px" }}>
                         <img src={t2} className="card-img-top" alt="..." />
                     </div>
                 </div>
 
                 <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                    <div id='cardp' className="card" style={{ width: "400px=", height: "217px" }}>
                         <img src={t3} className="card-img-top" alt="..." />
                     </div>
                 </div>
@@ -45,26 +45,40 @@ export const SportsPage = () => {
 
             <div className="row text-center">
                 <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                    <div id='cardp' className="card" style={{ width: "400px=", height: "217px" }}>
                         <img src={t4} className="card-img-top" alt="..." />
                     </div>
                 </div>
 
                 <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                    <div id='cardp' className="card" style={{ width: "400px=", height: "217px" }}>
                         <img src={t5} className="card-img-top" alt="..." />
                     </div>
                 </div>
 
                 <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                    <div id='cardp' className="card" style={{ width: "400px=", height: "217px" }}>
                         <img src={t6} className="card-img-top" alt="..." />
                     </div>
                 </div>
             </div>
+
+
+            <div>
+    
+    <div style={{marginTop:'100px'}}>
+    <footer className="py-3 my-4">
+    <h6 className='' style={{textAlign:'center'}}>Gurukul Public School</h6>
+    <hr/>
+    <p className="text-center text-body-secondary"> © 2024 Gurukul Public School. All rights reserved</p>
+    <p className="text-center text-body-secondary"> Designed By : Web Spirits , IT Department of SCOE</p>
+  </footer>
+  </div>
         </div>
-        
       
+  
+        </div>
+       
     
   );
 };

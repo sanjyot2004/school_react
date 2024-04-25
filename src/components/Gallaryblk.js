@@ -1,5 +1,5 @@
 import React from 'react';
-import gallary from './gallary.jpg';
+
 import gal7 from './gal7.jpeg';
 import gal9 from './gal9.jpg';
 import gal10 from './gal10.jpg';
@@ -20,40 +20,40 @@ export default function Gallaryblk() {
                 
             <div className="row text-center">
                 <div className="col"> 
-                    <div className="card" style={{ Width: "400px=", height: "217px" }}>
+                    <div id="card-gal" className="card" style={{ Width: "400px=", height: "217px" }}>
                         <img src={gal7} className="card-img-top" alt="..." />
                     </div>
                 </div>
 
                 <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                    <div id="card-gal" className="card" style={{ width: "400px=", height: "217px" }}>
                         <img src={gal9} className="card-img-top" alt="..." />
                     </div>
                 </div>
 
                 <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                    <div id="card-gal" className="card" style={{ width: "400px=", height: "217px" }}>
                         <img src={gal10} className="card-img-top" alt="..." />
                     </div>
                 </div>
             </div>
 
 
-            <div className="row text-center">
+            <div  className="row text-center">
                 <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                    <div id="card-gal" className="card" style={{ width: "400px=", height: "217px" }}>
                         <img src={gal11} className="card-img-top" alt="..." />
                     </div>
                 </div>
 
-                <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                <div  className="col"> 
+                    <div id="card-gal" className="card" style={{ width: "400px=", height: "217px" }}>
                         <img src={gal12} className="card-img-top" alt="..." />
                     </div>
                 </div>
 
-                <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                <div  className="col"> 
+                    <div id="card-gal" className="card" style={{ width: "400px=", height: "217px" }}>
                         <img src={gal13} className="card-img-top" alt="..." />
                     </div>
                 </div>
@@ -67,20 +67,20 @@ export default function Gallaryblk() {
         <div >
                 
             <div className="row text-center">
-                <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px"  }}>
+                <div  className="col"> 
+                    <div id="card-gal" className="card" style={{ width: "400px=", height: "217px"  }}>
                         <img src={gal14} className="card-img-top" alt="..."/>
                     </div>
                 </div>
 
-                <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                <div  className="col"> 
+                    <div id="card-gal" className="card" style={{ width: "400px=", height: "217px" }}>
                         <img src={gal15} className="card-img-top" alt="..." />
                     </div>
                 </div>
 
-                <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                <div  className="col"> 
+                    <div id="card-gal" className="card" style={{ width: "400px=", height: "217px" }}>
                         <img src={gal16} className="card-img-top" alt="..." />
                     </div>
                 </div>
@@ -88,26 +88,34 @@ export default function Gallaryblk() {
 
 
             <div className="row text-center">
-                <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                <div  className="col"> 
+                    <div id="card-gal" className="card" style={{ width: "400px=", height: "217px" }}>
                         <img src={gal17} className="card-img-top" alt="..." />
                     </div>
                 </div>
 
                 <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                    <div id="card-gal" className="card" style={{ width: "400px=", height: "217px" }}>
                         <img src={gal18} className="card-img-top" alt="..." />
                     </div>
                 </div>
 
                 <div className="col"> 
-                    <div className="card" style={{ width: "400px=", height: "217px" }}>
+                    <div id="card-gal" className="card" style={{ width: "400px=", height: "217px" }}>
                         <img src={gal19} className="card-img-top" alt="..." />
                     </div>
                 </div>
             </div>
         </div>
+            
+      <footer className="py-3 my-4">
+      <h6 className='' style={{textAlign:'center'}}>Gurukul Public School</h6>
+      <hr/>
+      <p className="text-center text-body-secondary"> © 2024 Gurukul Public School. All rights reserved</p>
+      <p className="text-center text-body-secondary"> Designed By : Web Spirits , IT Department of SCOE</p>
+    </footer>
         </div>
         </div>
+    
     );
 }

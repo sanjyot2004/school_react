@@ -10,7 +10,7 @@ return(
     <>
     <div className='rew-block'>
     <div className='container'>
-    <h1 className="fw-bold text-body-emphasis lh-1 mb-3 " style={{textAlign: "center",fontFamily:"Lucida Console"}}>Parent Review</h1>
+    <h1 className="fw-bold text-body-emphasis lh-1 mb-3 " style={{textAlign: "center",fontFamily:"  'Roboto', sans-serif"}}>Parent Review</h1>
     <hr className=' fw-bold' style={{color: "black"}}/>
    <div id="carouselExampleCaptions" className="carousel slide">
  
@@ -18,9 +18,9 @@ return(
     <div className="carousel-item active">
     
       <div className="col-lg-4 mx-auto d-block">
-      <img src={primg} className=" mx-auto d-block " alt="..."/>
+      <img id='re-img' src={primg} className=" mx-auto d-block " alt="..."/>
         <h2 className="fw-normal">Ravindra M. Jagtap</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p className='re-text'>Gurukul Public School is an excellent school in academics as well as in extra curricular activities. My daughter is doing her good career today after studying in this school.</p>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-star-fill" viewBox="0 0 16 16">
   <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
 </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-star-fill" viewBox="0 0 16 16">
@@ -36,9 +36,9 @@ return(
     </div>
     <div className="carousel-item">
     <div className="col-lg-4 mx-auto d-block">
-      <img src={primg1} className=" mx-auto d-block " alt="..."/>
+      <img id='re-img' src={primg1} className=" mx-auto d-block " alt="..."/>
         <h2 className="fw-normal">Suresh M. Jagtap</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p className='re-text'>As seen from my both the child that is the Gurukul public school is Best School about the students progress and the dedicated teachers..I really appreciate about the School</p>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-star-fill" viewBox="0 0 16 16">
   <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
 </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-star-fill" viewBox="0 0 16 16">
@@ -54,9 +54,9 @@ return(
     </div>
     <div className="carousel-item">
     <div className="col-lg-4 mx-auto d-block">
-      <img src={primg2} className=" mx-auto d-block " alt="..."/>
-        <h2 className="fw-normal">Parent name</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+      <img id='re-img' src={primg2} className=" mx-auto d-block " alt="..."/>
+        <h2 className="fw-normal">sachin thorat</h2>
+        <p className='re-text'>Gurukul Public School is a good English medium school. This school involves parent's in many things.So that's why the communication environment is much better in school.</p>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="currentColor" className="bi bi-star-fill" viewBox="0 0 16 16">
   <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
 </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-star-fill" viewBox="0 0 16 16">
