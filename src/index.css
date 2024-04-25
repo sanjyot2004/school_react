@@ -79,6 +79,10 @@ padding-top: 5%;
   
   
 }
+*{
+  margin: 0;
+  padding: 0;
+}
 .rew-block img{
   
   height: 300px;
