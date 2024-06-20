@@ -1,6 +1,6 @@
 import React from 'react';
 import vision from "./Vision.png";
- import mission from "./Mission.png";
+import mission from "./Mission.png";
 
 
 

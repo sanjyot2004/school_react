@@ -54,7 +54,7 @@ export const Navbar2 = () => {
                 </button>
                 <ul className={`dropdown-menu ${showDropdown ? 'show' : ''}`} style={{ marginTop: 0 }}>
                   <li><Link to="/More1" id='nav-btn' className="dropdown-item">About</Link></li>
-                  <li><Link to="/More2" id='nav-btn'  className="dropdown-item">Mangement Desk</Link></li>
+                  <li><Link to="/More2" id='nav-btn'  className="dropdown-item">Management Desk</Link></li>
                   <li><Link to="/More3" id='nav-btn' className="dropdown-item">Principal Desk</Link></li>
                   
                 </ul>

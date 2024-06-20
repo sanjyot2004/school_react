@@ -67,7 +67,7 @@ const [form] =Form.useForm()
           <Option value="Second Std">Third Std</Option>
           <Option value="Second Std">Fourth Std</Option>
           <Option value="Second Std">Fifth Std</Option>
-          <Option value="Second Std">Sisth Std</Option>
+          <Option value="Second Std">Sixth Std</Option>
           <Option value="Second Std">Seventh Std</Option>
           <Option value="Second Std">Eighth Std</Option>
           {/* Add more options as needed */}
@@ -75,12 +75,23 @@ const [form] =Form.useForm()
       </Form.Item>
 
       <Form.Item
-        label="Contact Number"
-        name="contact"
-        rules={[{ required: true, message: 'Please input contact number!' }]}
-      >
-        <Input type="tel" placeholder="Enter Contact Number" />
-      </Form.Item>
+  label="Contact Number"
+  name="contact"
+  rules={[
+    { 
+      required: true, 
+      message: 'Please input contact number!' 
+    },
+    {
+      pattern: /^[0-9]{10}$/,
+      message: 'Contact number must be exactly 10 digits long and contain only numbers!'
+    }
+  ]}
+>
+  <Input type="tel" placeholder="Enter Contact Number" />
+</Form.Item>
+
+
 
       <Form.Item
         label="Email Id"
